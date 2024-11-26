@@ -11,17 +11,16 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "heart.fill")
-//                .imageScale(.large)
+            //                .imageScale(.large)
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
             Text("Swiftul Thinking")
             
-            Button("Click me!"){
-                
-            }
-        
-        .padding()
-        .padding()
+            
+            
+                .padding()
+                .padding()
+        }
     }
 }
 
